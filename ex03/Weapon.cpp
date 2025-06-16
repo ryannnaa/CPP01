@@ -16,5 +16,5 @@ void Weapon::setType(const std::string input)
 const std::string& Weapon::getType() const
 {
     const std::string& ref = type;
-    return (type);
+    return (ref);
 }
